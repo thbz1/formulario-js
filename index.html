@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="titulo">
+            Digite 2 números nos campos abaixo
+        </div>
+        <div>
+            <form id="formulario">
+                <p>
+                    <label for="ca">Campo A:</label>
+                    <input type="number" name="ca" id="ca" required>
+                </p>
+                <p>
+                    <label for="cb">Campo B:</label>
+                    <input type="number" name="cb" id="cb" required>
+                </p>
+                <input type="submit" value="Enviar" id="sub">
+            </form>
+        </div>
+    </div>
+    <div class="msg" id="acerto"></div>
+    <div class="msg" id="erro"></div>
+    <script src="main.js"></script>
+</body>
+</html>

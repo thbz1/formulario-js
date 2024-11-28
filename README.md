@@ -1,0 +1,2 @@
+## formulario-js
+Formulário criado com HTML, CSS e JavaScript, com objetivo educacional no curso da EBAC. O projeto destaca o uso do JavaScript para adicionar interatividade e realizar validações de dados em tempo real.
